@@ -62,3 +62,6 @@ Para fins de exercício, a segurança das interfaces pode ser abstraída e qualq
 * Foi utilizado Biblioteca Lombok
 * Necessário troca o parâmetro spring.profiles.active dentro do arquivo  application.properties para o valor “dev” caso teste seja local.
 * Link da Aplicação no Heroku (https://cooperativavotacaoapi.herokuapp.com/)
+* Utilizar Postman para devidos testes
+  * Postman(Teste Local): TestesCooperativaVotacaoLocal.postman_collection.json
+  * Postman(Teste Heroku): TesteCooperativaVotacaoHeroku.postman_collection.json
