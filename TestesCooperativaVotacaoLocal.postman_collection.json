@@ -1,0 +1,165 @@
+{
+	"info": {
+		"_postman_id": "3ef5d923-94a7-4f10-94ee-8d62a7beac4b",
+		"name": "TestesCooperativaVotacaoLocal",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Associados",
+			"item": [
+				{
+					"name": "Associado - Adicionar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\": 1,\n\t\"nome\":\"Lucas\",\n\t\"cpf\":\"03538991359\"\n}"
+						},
+						"url": {
+							"raw": "localhost:8080/associados",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"associados"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Associados - Listar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/associados",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"associados"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pautas - Adicionar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pautas - Listar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Sessao - Abrir Sessao",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"sessao\": {\n\t\t\"tempo\": 2\n\t}\n\t\"id\":3030,\n\t\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/pautas/3030/sessao",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"pautas",
+								"3030",
+								"sessao"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Voto - Inserir Voto",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \n    \"valorVoto\":\"SIM\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/pautas/3030/voto",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"pautas",
+								"3030",
+								"voto"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Voto - Contabilizar Votos",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \n    \"valorVoto\":\"SIM\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/pautas/3030/voto",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"pautas",
+								"3030",
+								"voto"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
