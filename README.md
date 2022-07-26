@@ -13,7 +13,7 @@ Essa solução deve ser executada na nuvem e promover as seguintes funcionalidad
   * localhost:8080/associados 
     * { "nome":"Lucas","cpf":"2"}
 * Consultar Todos (Método GET)
-  * localhost:8080/associados
+  * https://cooperativavotacaoapi.herokuapp.com/associados
 
 ***
 
@@ -23,7 +23,7 @@ Essa solução deve ser executada na nuvem e promover as seguintes funcionalidad
     * { "id":"3012","descricao":"Pauta"}
 
 * Consultar Todos (Método GET)
-  * localhost:8080/pautas
+  * https://cooperativavotacaoapi.herokuapp.com/pautas
 
 
 ***
